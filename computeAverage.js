@@ -1,9 +1,12 @@
 'use strict';
+
 function average(numbers) {
-  let total = 0;
+  let sum = 0;
   numbers.forEach(function(element){
-    console.log(element);
+    //console.log(element);
+    sum += element;
   });
+  return (sum/numbers.length);
 }
 
 
